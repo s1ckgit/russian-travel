@@ -8,13 +8,22 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(380px, 440px) minmax(416px, 456px);
+    grid-template-rows: auto minmax(440px, auto);
     column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
+    grid-template-columns: minmax(250px, 340px) minmax(250px, 352px);
+    grid-template-rows: auto minmax(340px, auto);
     column-gap: 28px;
   }
 }

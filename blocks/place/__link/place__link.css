@@ -2,4 +2,10 @@
   color: #FFFFFF;
   font-size: 18px;
   line-height: 1.22;
+  transition: all .3s;
 }
+
+.place__link:hover {
+  opacity: .8;
+}
+

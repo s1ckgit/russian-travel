@@ -1,6 +1,7 @@
 .place__website {
   justify-self: start;
   align-self: end;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 576px) {

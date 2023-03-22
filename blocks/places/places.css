@@ -1,20 +1,23 @@
 .places {
+  box-sizing: border-box;
   width: 100%;
-  padding: 92px 100px;
+  padding: 92px 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .places {
-    padding: 92px 0;
+    padding: 88px 24px 90px;
+    row-gap: 73px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .places {
-    padding: 88px 0 90px;
+    padding: 64px 0px;
+    row-gap: 50px;
   }
 }
